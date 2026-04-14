@@ -1,2 +1,2 @@
-# Packet-Tracer-Labs
-An accumulation of my documented packet tracer labs
+# ROAS Packet Tracer Lab
+The goal of this lab was to show a working network enviorment invloving 2 routers running as a router on a stick that would connect down to a layer 2 switch that would run their own seperate VLANs with multiple PCs connected to those VLANs. Those PCs will be able to ping the external PC (simulating the Internet). Both routers on a stick would be connected up to a single router that will run the ACLs determining what traffic is allowed in or out of the network as well as overloading all IPs on the network so that the only IP seen by the external router will be 203.0.113.2. The ACL in this lab will be very open and not block any traffic going outbound from the network but will not allow any network inbound on the network.
